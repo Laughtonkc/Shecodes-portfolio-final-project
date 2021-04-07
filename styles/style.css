@@ -1,0 +1,48 @@
+:root {
+    --background-color: #F9F7FE;
+    --heading-font-style: "Playfair Display", serif;
+    --secondary-font-style: 'Nunito', sans-serif;
+}
+
+.hero {
+    background-color: var(--background-color);
+    text-align: center;
+    padding: 160px 20px;
+
+}
+
+.hero h1 {
+    font-family: var(--heading-font-style);
+    font-weight: bold;
+    font-size: 96px;
+    padding: 15px;
+}
+
+.hero h2 {
+   font-family: var(--secondary-font-style);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.hero p {
+    font-family: var(--secondary-font-style);
+    font-size: 24px;
+    font-weight: 300; 
+}
+
+.btn-main {
+    font-family: var(--secondary-font-style);
+    font-weight: 500;
+    color: white;
+    background-color: #ED7D59;
+    padding: 13px 30px;
+    text-align: center;
+}
+
+.btn-main:hover {
+    color: #ED7D59;
+    background-color: white ;
+    border: 3px solid #ED7D59;
+    font-weight: 700;
+    
+}
