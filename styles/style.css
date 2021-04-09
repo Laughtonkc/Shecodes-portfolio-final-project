@@ -34,7 +34,7 @@
   font-weight: 500;
   color: white;
   background-color: #ed7d59;
-  padding: 13px 30px;
+  padding: 15px 70px;
   text-align: center;
 }
 
@@ -91,10 +91,97 @@ h3 {
   .hero p {
     font-size: 21px;
   }
+  .btn-main {
+    padding: 10px 35px;
+  }
   h3 {
     font-size: 26px;
   }
   h4 {
     font-size: 26px;
   }
+}
+
+/* about page Css */
+
+.about-header {
+  font-family: var(--heading-font-style);
+  font-weight: bold;
+  font-size: 62px;
+  padding: 45px;
+  text-align: center;
+}
+
+.img-selfie {
+  border-radius: 9px;
+  max-width: 560px;
+  max-height: 450px;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-main {
+  margin: 30px;
+}
+.about-name {
+  font-family: var(--heading-font-style);
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.about-info {
+  font-family: var(--secondary-font-style);
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.btn-view-profile {
+  font-family: var(--secondary-font-style);
+  font-weight: 500;
+  color: white;
+  background-color: #ed7d59;
+  border-radius: 2px;
+  padding: 10px 40px;
+  font-size: 15px;
+  font-family: var(--secondary-font-style);
+  border-radius: 4px;
+}
+
+.btn-view-profile:hover {
+  color: #ed7d59;
+  background-color: white;
+  border: 3px solid #ed7d59;
+  font-weight: 700;
+}
+
+.fav-project-header {
+  font-family: var(--heading-font-style);
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.my-fav-projects {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.my-fav-projects h4 {
+  font-family: var(--heading-font-style);
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-fav-projects p {
+  font-family: var(--secondary-font-style);
+  font-size: 18px;
+  line-height: 30px;
+  margin-right: 20px;
+}
+
+.triple-images:hover {
+  opacity: 0.3;
 }
