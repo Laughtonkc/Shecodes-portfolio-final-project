@@ -73,6 +73,7 @@ h3 {
 
 .btn-learn-more {
   border: #ed7d59 2px solid;
+  color: #ed7d59;
   border-radius: 2px;
   padding: 7px 40px;
   font-size: 15px;
@@ -82,9 +83,10 @@ h3 {
 
 .btn-learn-more:hover {
   background: #e7cbc2;
+  color: #ed7d59;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 767px) {
   .hero h1 {
     font-size: 46px;
   }
@@ -100,16 +102,33 @@ h3 {
   h4 {
     font-size: 26px;
   }
+  .content-container {
+    text-align: center;
+  }
+  .page-header {
+    font-size: 30px;
+  }
+  .about-info {
+    font-size: 15px;
+  }
+  .my-fav-projects h4 {
+    font-size: 20px;
+  }
+  .my-fav-projects p {
+    font-size: 12px;
+  }
+  .fav-project-header {
+    font-size: 25px;
+  }
+  .about-main {
+    text-align: center;
+  }
 }
 
 /* about page Css */
 
-.about-header {
-  font-family: var(--heading-font-style);
-  font-weight: bold;
-  font-size: 62px;
-  padding: 45px;
-  text-align: center;
+.content-container {
+  margin-top: 50px;
 }
 
 .img-selfie {
@@ -123,13 +142,13 @@ h3 {
 .about-main {
   margin: 30px;
 }
-.about-name {
+.page-header {
   font-family: var(--heading-font-style);
   font-weight: bold;
-  font-size: 50px;
+  font-size: 45px;
 }
 
-.about-info {
+p {
   font-family: var(--secondary-font-style);
   font-size: 18px;
   line-height: 30px;
@@ -160,6 +179,8 @@ h3 {
   font-size: 40px;
   margin-top: 70px;
   margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
   text-align: center;
 }
 
@@ -177,7 +198,7 @@ h3 {
 
 .my-fav-projects p {
   font-family: var(--secondary-font-style);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
   margin-right: 20px;
 }
