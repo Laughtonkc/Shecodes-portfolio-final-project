@@ -4,8 +4,23 @@
   --secondary-font-style: "Nunito", sans-serif;
 }
 /* logo */
-nav {
-  padding: 15px 0;
+
+.nav-container-one {
+background-color: var(--background-color);
+ margin: 0;
+margin-right: 0;
+padding: 0;
+max-width: 100%;
+}
+
+.nav-blue {
+  padding: 15px;
+  background-color: var(--background-color);
+}
+
+.nav-white {
+  padding: 15px;
+  background-color: #fff;
 }
 
 .logo {
@@ -30,15 +45,14 @@ nav li {
   display: inline;
   line-height: 22px;
   margin-left: 10px;
- 
 }
 
-nav a:hover, nav li.active a {
+nav a:hover,
+nav li.active a {
   color: #ed7d59;
-   text-decoration: none;
-   transition: all 100ms ease-in-out;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
 }
-
 
 /* homepage */
 .hero {
@@ -79,7 +93,7 @@ nav a:hover, nav li.active a {
 
 .btn-main:hover {
   color: #ed7d59;
-  background-color: white;
+  background-color: var(--background-color);
   border: 3px solid #ed7d59;
   font-weight: 700;
 }
@@ -125,10 +139,13 @@ h3 {
   color: #ed7d59;
   border: 2px solid #ed7d59;
   font-weight: 700;
-
 }
 
 @media (max-width: 767px) {
+  nav li {
+    font-size: 13px;
+    margin-left: 5px;
+  }
   .hero h1 {
     font-size: 46px;
   }
@@ -164,6 +181,7 @@ h3 {
   }
   .about-main {
     text-align: center;
+    justify-content: center;
   }
 }
 
@@ -284,4 +302,12 @@ a {
 
 a:hover {
   color: #444348;
+}
+
+.contact-img {
+  max-width: 360px;
+  max-height: 450px;
+  display: block;
+  padding-right: 20px;
+  margin: 0 auto;
 }
