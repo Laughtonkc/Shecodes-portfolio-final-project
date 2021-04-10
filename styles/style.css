@@ -118,11 +118,14 @@ h3 {
   font-size: 15px;
   font-family: var(--secondary-font-style);
   border-radius: 4px;
+  transition: all 150ms ease-in-out;
 }
 
 .btn-learn-more:hover {
-  background: #e7cbc2;
   color: #ed7d59;
+  border: 2px solid #ed7d59;
+  font-weight: 700;
+
 }
 
 @media (max-width: 767px) {
