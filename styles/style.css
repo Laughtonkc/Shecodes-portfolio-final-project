@@ -3,7 +3,44 @@
   --heading-font-style: "Playfair Display", serif;
   --secondary-font-style: "Nunito", sans-serif;
 }
+/* logo */
+nav {
+  padding: 15px 0;
+}
 
+.logo {
+  margin-left: 8px;
+  font-size: 22px;
+  font-family: "DM Serif Text", serif;
+  color: #011638;
+  font-style: italic;
+}
+
+nav ul {
+  margin: 0px;
+  margin-right: 8px;
+  padding: 0px;
+}
+
+nav li {
+  font-family: var(--secondary-font-style);
+  font-weight: 600;
+  font-size: 16px;
+  list-style: none;
+  display: inline;
+  line-height: 22px;
+  margin-left: 10px;
+ 
+}
+
+nav a:hover, nav li.active a {
+  color: #ed7d59;
+   text-decoration: none;
+   transition: all 100ms ease-in-out;
+}
+
+
+/* homepage */
 .hero {
   background-color: var(--background-color);
   text-align: center;
@@ -12,6 +49,7 @@
 
 .hero h1 {
   font-family: var(--heading-font-style);
+  color: #011638;
   font-weight: bold;
   font-size: 96px;
   padding: 15px;
@@ -36,6 +74,7 @@
   background-color: #ed7d59;
   padding: 15px 70px;
   text-align: center;
+  transition: all 250ms ease-in-out;
 }
 
 .btn-main:hover {
