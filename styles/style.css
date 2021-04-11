@@ -37,22 +37,24 @@ nav ul {
   padding: 0px;
 }
 
-nav li {
+ nav a {
   font-family: var(--secondary-font-style);
+  font-size: 18px;
+  color: #011638 !important;
   font-weight: 600;
-  font-size: 16px;
-  list-style: none;
-  display: inline;
-  line-height: 22px;
-  margin-left: 10px;
 }
 
-nav a:hover,
-nav li.active a {
-  color: #ed7d59;
+nav a:hover {
+color: #7E8897 !important;
+}
+
+.active  {
+  font-weight: 900 !important;
   text-decoration: none;
   transition: all 100ms ease-in-out;
 }
+
+
 
 /* homepage */
 .hero {
@@ -241,6 +243,7 @@ h2 {
 .contact-container {
   background-color: var(--background-color);
   padding: 60px 20px;
+  
 }
 
 a {
@@ -323,10 +326,7 @@ footer p {
 
 /* Media  */
 @media (max-width: 767px) {
-  nav li {
-    font-size: 13px;
-    margin-left: 5px;
-  }
+ 
   .hero h1 {
     font-size: 46px;
   }
@@ -373,4 +373,6 @@ footer p {
   .btn-work-inquiry {
     padding: 9px 12px;
     font-size: 12px;
+}
+
 }
