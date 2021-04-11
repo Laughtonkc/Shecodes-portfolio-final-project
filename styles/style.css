@@ -273,7 +273,7 @@ a:hover {
 
 footer {
   background-color: var(--background-color);
-  padding: 10px;
+  
 }
 footer .footer-contanier {
   display: inline;
@@ -297,7 +297,14 @@ text-align: right;
  padding: 18px 20px;
 }
 
-/* Media Quiers */
+.naughty-footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+}
+
+
+/* Media  */
 @media (max-width: 767px) {
   nav li {
     font-size: 13px;
@@ -312,11 +319,14 @@ text-align: right;
   .btn-main {
     padding: 10px 35px;
   }
-  h3 {
+  h3,h4 {
     font-size: 26px;
   }
-  h4 {
-    font-size: 26px;
+  h2,p{
+  font-size: 15px;
+  }
+  i.fab,i.fas {
+    font-size: 18px;
   }
   .content-container {
     text-align: center;
