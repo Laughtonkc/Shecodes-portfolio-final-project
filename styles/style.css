@@ -6,11 +6,11 @@
 /* logo */
 
 .nav-container-one {
-background-color: var(--background-color);
- margin: 0;
-margin-right: 0;
-padding: 0;
-max-width: 100%;
+  background-color: var(--background-color);
+  margin: 0;
+  margin-right: 0;
+  padding: 0;
+  max-width: 100%;
 }
 
 .nav-blue {
@@ -141,49 +141,6 @@ h3 {
   font-weight: 700;
 }
 
-@media (max-width: 767px) {
-  nav li {
-    font-size: 13px;
-    margin-left: 5px;
-  }
-  .hero h1 {
-    font-size: 46px;
-  }
-  .hero p {
-    font-size: 21px;
-  }
-  .btn-main {
-    padding: 10px 35px;
-  }
-  h3 {
-    font-size: 26px;
-  }
-  h4 {
-    font-size: 26px;
-  }
-  .content-container {
-    text-align: center;
-  }
-  .page-header {
-    font-size: 30px;
-  }
-  .about-info {
-    font-size: 15px;
-  }
-  .my-fav-projects h4 {
-    font-size: 20px;
-  }
-  .my-fav-projects p {
-    font-size: 12px;
-  }
-  .fav-project-header {
-    font-size: 25px;
-  }
-  .about-main {
-    text-align: center;
-    justify-content: center;
-  }
-}
 
 /* about page Css */
 
@@ -280,7 +237,7 @@ p {
 i.fas,
 i.fab {
   color: #ed7d59;
-  font-size: 20px;
+  font-size: 22px;
   margin: 15px 15px 15px 0px;
 }
 
@@ -310,4 +267,77 @@ a:hover {
   display: block;
   padding-right: 20px;
   margin: 0 auto;
+}
+
+/* footer */
+
+footer {
+  background-color: var(--background-color);
+  padding: 10px;
+}
+footer .footer-contanier {
+  display: inline;
+  padding: 10px 10px;
+}
+footer .logo {
+  margin: 20px;
+}
+
+footer .social-links {
+  margin: 10px auto;
+  padding: 0px 10px;
+}
+
+.social-media-link {
+  padding: 0 10px;
+}
+
+footer p {
+text-align: right;
+ padding: 18px 20px;
+}
+
+/* Media Quiers */
+@media (max-width: 767px) {
+  nav li {
+    font-size: 13px;
+    margin-left: 5px;
+  }
+  .hero h1 {
+    font-size: 46px;
+  }
+  .hero p {
+    font-size: 21px;
+  }
+  .btn-main {
+    padding: 10px 35px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  h4 {
+    font-size: 26px;
+  }
+  .content-container {
+    text-align: center;
+  }
+  .page-header {
+    font-size: 30px;
+  }
+  .about-info {
+    font-size: 15px;
+  }
+  .my-fav-projects h4 {
+    font-size: 20px;
+  }
+  .my-fav-projects p {
+    font-size: 12px;
+  }
+  .fav-project-header {
+    font-size: 25px;
+  }
+  .about-main {
+    text-align: center;
+    justify-content: center;
+  }
 }
