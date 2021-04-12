@@ -60,7 +60,7 @@ color: #7E8897 !important;
 .hero {
   background-color: var(--background-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 140px 20px;
 }
 
 .hero h1 {
@@ -74,13 +74,17 @@ color: #7E8897 !important;
 .hero h2 {
   font-family: var(--secondary-font-style);
   font-size: 36px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .hero p {
   font-family: var(--secondary-font-style);
   font-size: 24px;
   font-weight: 300;
+}
+
+#typewriter {
+  font-weight: bold;
 }
 
 .btn-main {
@@ -115,7 +119,7 @@ h4 {
   font-size: 30px;
 }
 h3 {
-  text-align: center;
+  text-align: left;
   font-family: var(--heading-font-style);
   font-size: 30px;
   font-weight: 700;
@@ -146,7 +150,7 @@ h3 {
 /* about page Css */
 
 .content-container {
-  margin-top: 50px;
+  padding-top: 60px;
 }
 
 .img-selfie {
@@ -298,7 +302,7 @@ footer {
 }
 footer .footer-contanier {
   display: inline;
-  padding: 10px 10px;
+  padding: 30px 10px;
 }
 footer .logo {
   margin: 20px;
@@ -333,6 +337,9 @@ footer p {
   .hero p {
     font-size: 21px;
   }
+  .hero h2 {
+    font-size: 28px;
+  }
   .btn-main {
     padding: 10px 35px;
   }
@@ -348,6 +355,10 @@ footer p {
   i.fas {
     font-size: 18px;
   }
+  .img-selfie {
+  width: 260px;
+  height: 350px;
+}
   .content-container {
     text-align: center;
   }
