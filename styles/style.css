@@ -387,5 +387,11 @@ footer p {
     padding: 9px 12px;
     font-size: 12px;
 }
+.social-media-link {
+  padding: 0 0px;
+}
+footer p {
+ text-align: center;
+}
 
 }
