@@ -155,11 +155,18 @@ h3 {
   color: #ed7d59;
 }
 
+.img-fluid {
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
 .btn-learn-more {
   border: #ed7d59 2px solid;
   color: #ed7d59;
   border-radius: 2px;
-  padding: 7px 40px;
+  padding: 12px 60px;
+  margin-top: 10px;
   font-size: 15px;
   font-family: var(--secondary-font-style);
   border-radius: 4px;
@@ -170,6 +177,11 @@ h3 {
   color: #ed7d59;
   border: 2px solid #ed7d59;
   font-weight: 700;
+}
+
+.carousel .fas {
+  color: #011638;
+ padding: 20px
 }
 
 /* about page Css */
@@ -260,7 +272,7 @@ p {
 i.fas,
 i.fab {
   color: #ed7d59;
-  font-size: 22px;
+  font-size: 25px;
   margin: 10px 15px 10px 0px;
 }
 
@@ -348,11 +360,6 @@ footer p {
   padding: 18px 20px;
 }
 
-.naughty-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
 
 /* Media  */
 @media (max-width: 767px) {
@@ -377,6 +384,11 @@ footer p {
   p {
     font-size: 15px;
   }
+
+  .contact-info {
+    text-align: center;
+  }
+
   i.fab,
   i.fas {
     font-size: 18px;
