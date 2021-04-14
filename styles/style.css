@@ -218,6 +218,17 @@ h3 {
   border: 3.5px solid #67D5D2;
   font-weight: 800;
 }
+
+.tags {
+    border: 2px #011638;
+    font-size: 14px;
+    border-style: groove;
+    border-radius: 6px;
+    padding: 6px;
+    margin: 3px;
+    text-align: center;
+}
+
 .contact-box-wp {
   background: #c3aef8;
   padding: 20px 120px;
@@ -516,7 +527,6 @@ a:hover {
   border: 3.5px solid #885df1;
   font-weight: 800;
 }
-
 
 
 /* footer */

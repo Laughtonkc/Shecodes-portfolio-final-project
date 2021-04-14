@@ -1,0 +1,40 @@
+/* City Falcon Casestudy */
+h1 {
+font-family: var(--heading-font-style);
+  color: #011638;
+  font-weight: bold;
+  font-size: 46px;
+  padding-top: 95px;
+  text-align: center;
+} 
+
+.cityfalcon {
+    border-radius: 0px;
+}
+
+.contact-box-cf {
+  background: #EBF66A;
+  padding: 20px 120px;
+  border-radius: 10px;
+}
+
+.btn-work-inquiry-cf {
+  font-family: var(--secondary-font-style);
+  font-weight: 500;
+  color: white;
+  background-color: #F65282;
+  border-radius: 2px;
+  padding: 15px 50px;
+  font-size: 15px;
+  font-family: var(--secondary-font-style);
+  border-radius: 4px;
+  margin-top: 7px;
+}
+
+.btn-work-inquiry-cf:hover {
+  color: #F65282;
+  background-color: #EBF66A;
+  border: 3.5px solid #F65282;
+  font-weight: 800;
+}
+
