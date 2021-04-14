@@ -38,3 +38,48 @@ font-family: var(--heading-font-style);
   font-weight: 800;
 }
 
+
+/* Adulting 101 */
+
+.btn-ad-prototype-view {
+font-family: var(--secondary-font-style);
+font-size: 18px;
+font-weight: 600;
+color: white;
+background-color: #f65282;
+display: block;
+padding: 15px;
+text-align: center;
+}
+
+.btn-ad-prototype-view:hover {
+border: 2px solid #f65282;
+ color:#f65282;
+ background: #fff;
+}
+
+.contact-box-ad {
+  background: #EC9275;
+  padding: 20px 120px;
+  border-radius: 10px;
+}
+
+.btn-work-inquiry-ad {
+  font-family: var(--secondary-font-style);
+  font-weight: 500;
+  color: white;
+  background-color: #67D5D2;
+  border-radius: 2px;
+  padding: 15px 50px;
+  font-size: 15px;
+  font-family: var(--secondary-font-style);
+  border-radius: 4px;
+  margin-top: 7px;
+}
+
+.btn-work-inquiry-ad:hover {
+  color: #67D5D2;
+  background-color: #EC9275;
+  border: 3.5px solid #67D5D2;
+  font-weight: 800;
+}
