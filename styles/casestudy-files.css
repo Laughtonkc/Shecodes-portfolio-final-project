@@ -41,13 +41,18 @@ font-family: var(--heading-font-style);
 
 /* Adulting 101 */
 
+.btn-prototype {
+max-width: 750px;
+}
+
 .btn-ad-prototype-view {
+display: block;
 font-family: var(--secondary-font-style);
 font-size: 18px;
 font-weight: 600;
 color: white;
 background-color: #f65282;
-display: block;
+margin: 15px;
 padding: 15px;
 text-align: center;
 }
@@ -86,7 +91,7 @@ border: 2px solid #f65282;
 
 /* perfect properties */
 
-.contact-box-pp {
+.work-contact-pp {
   background: #FBA8C0;
   padding: 20px 120px;
   border-radius: 10px;
@@ -109,5 +114,55 @@ border: 2px solid #f65282;
   color: #67D5D2;
   background-color: #FBA8C0;
   border: 3.5px solid #67D5D2;
+  font-weight: 800;
+}
+
+/* vida */
+.btn-prototype-vida {
+max-width: 550px;
+}
+
+.btn-ad-prototype-vida{
+display: block;
+border-radius: 10px;
+font-family: var(--secondary-font-style);
+font-size: 18px;
+font-weight: 600;
+color: white;
+background-color: #AC278F;
+margin: 15px;
+padding: 15px;
+text-align: center;
+}
+
+.btn-ad-prototype-vida:hover {
+border: 2px solid #AC278F;
+ color:#AC278F;
+ background: #fff;
+}
+
+.contact-box-vida {
+  background: #ABE8E6;
+  padding: 20px 120px;
+  border-radius: 10px;
+}
+
+.btn-work-inquiry-vida {
+  font-family: var(--secondary-font-style);
+  font-weight: 500;
+  color: white;
+  background-color: #ED7D59;
+  border-radius: 2px;
+  padding: 15px 50px;
+  font-size: 15px;
+  font-family: var(--secondary-font-style);
+  border-radius: 4px;
+  margin-top: 7px;
+}
+
+.btn-work-inquiry-vida:hover {
+  color: #ED7D59;
+  background-color: #ABE8E6;
+  border: 3.5px solid #ED7D59;
   font-weight: 800;
 }
