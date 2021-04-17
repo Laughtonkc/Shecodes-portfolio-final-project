@@ -462,6 +462,7 @@ a:hover {
   padding-right: 20px;
   padding-top: 25px;
   margin: 0 auto;
+  border-radius: 0px;
 }
 .circle-sketch-highlight{
   position:relative;
