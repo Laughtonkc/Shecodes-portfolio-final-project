@@ -598,6 +598,10 @@ footer i.fab {
   .contact-info {
     text-align: center;
   }
+  .contact-img {
+    max-width: 260px;
+  max-height: 350px;
+  }
 
   i.fab,
   i.fas {
