@@ -166,3 +166,33 @@ border: 2px solid #AC278F;
   border: 3.5px solid #ED7D59;
   font-weight: 800;
 }
+
+/* Goalden Hour */
+
+
+
+.contact-box-GH {
+  background: #EBF66A;
+  padding: 20px 120px;
+  border-radius: 10px;
+}
+
+.btn-work-inquiry-GH {
+  font-family: var(--secondary-font-style);
+  font-weight: 500;
+  color: white;
+  background-color: #6C63FF;
+  border-radius: 2px;
+  padding: 15px 50px;
+  font-size: 15px;
+  font-family: var(--secondary-font-style);
+  border-radius: 4px;
+  margin-top: 7px;
+}
+
+.btn-work-inquiry-GH:hover {
+  color: #6C63FF;
+  background-color: #EBF66A;
+  border: 3.5px solid #6C63FF;
+  font-weight: 800;
+}
