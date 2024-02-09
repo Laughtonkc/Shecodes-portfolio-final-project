@@ -219,4 +219,31 @@ border: 2px solid #AC278F;
      color:#00539F;
      background: #fff;
     }
-}
+
+    .contact-box-tesco {
+      background: #F65282;
+      padding: 20px 120px;
+      border-radius: 10px;
+      opacity: 83%;
+    }
+    
+    .btn-work-inquiry-tesco {
+      font-family: var(--secondary-font-style);
+      font-weight: 500;
+      color: white;
+      background-color: #67D5D2;
+      border-radius: 2px;
+      padding: 15px 50px;
+      font-size: 15px;
+      font-family: var(--secondary-font-style);
+      border-radius: 4px;
+      margin-top: 7px;
+    }
+    
+    .btn-work-inquiry-tesco:hover {
+      color: #67D5D2;
+      background-color: #F65282;
+      border: 3.5px solid #67D5D2;
+      font-weight: 800;
+    }
+
