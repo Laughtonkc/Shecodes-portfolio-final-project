@@ -247,3 +247,33 @@ border: 2px solid #AC278F;
       font-weight: 800;
     }
 
+    .no-dot-list {
+      list-style: none;
+    }
+
+    /* Nestlé */
+
+    
+
+    .btn-ad-prototype-nestle  {
+    max-width: 550px;
+    }
+    
+    .btn-ad-prototype-nestle {
+    display: block;
+    border-radius: 10px;
+    font-family: var(--secondary-font-style);
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #00818F;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    }
+    
+    .btn-ad-prototype-nestle:hover {
+    border: 2px solid #00818F;
+     color:#00818F;
+     background: #fff;
+    }
