@@ -1,5 +1,7 @@
 :root {
-  --background-color: #f9f7fe;
+  --background-color: #F1EDE8;
+  --bold-text-color: #E37A59;
+  --secondary-text-color: #272142;
   --heading-font-style: "Playfair Display", serif;
   --secondary-font-style: "Nunito", sans-serif;
 }
@@ -27,8 +29,9 @@
   margin-left: 8px;
   font-size: 22px;
   font-family: "DM Serif Text", serif;
-  color: #272142;
+  color: var(--secondary-text-color);
   font-style: italic;
+  text-transform: capitalize;
 }
 
 nav ul {
@@ -39,13 +42,14 @@ nav ul {
 
 nav a {
   font-family: var(--secondary-font-style);
-  font-size: 18px;
-  color: #272142 !important;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: var(--secondary-text-color) !important;
   font-weight: 600;
 }
 
 nav a:hover {
-  color: #7e8897 !important;
+  font-weight: 800 !important;
 }
 
 .active {
@@ -54,23 +58,9 @@ nav a:hover {
   transition: all 100ms ease-in-out;
 }
 
-.realistic-marker-highlight-nav{
-  position:relative;
-}
-.realistic-marker-highlight-nav:before{
-  content:"";
-  background-color:#F9F7FE;
-  width:100%;
-  height:.85em;
-  position:absolute;
-  z-index:-1;
-  filter:url(#marker-shape);
-  left:-0.25em;
-  top:0.1em;
-  padding:0 0.25em;
-}
-
 /* homepage */
+
+/* heading section */
 .hero {
   background-color: var(--background-color);
   text-align: center;
@@ -79,8 +69,8 @@ nav a:hover {
 
 .hero h1 {
   font-family: var(--heading-font-style);
-  color: #011638;
-  font-weight: bold;
+  color: var(--bold-text-color);
+  font-weight: 500;
   font-size: 76px;
   padding: 15px;
 }
@@ -105,21 +95,117 @@ nav a:hover {
 .btn-main {
   font-family: var(--secondary-font-style);
   font-size: 16px;
+  text-transform: uppercase;
   font-weight: 600;
-  color: white;
-  background-color: #f65282;
-  padding: 15px 70px;
+  color: var(--secondary-text-color);
+  background-color: #E37A59;
+  border-radius: 200px;
+  padding: 10px 70px;
   text-align: center;
   transition: all 250ms ease-in-out;
 }
 
 .btn-main:hover {
-  color: #f65282;
+  color: #E37A59;
   background-color: var(--background-color);
-  border: 3px solid #f65282;
+  border: 3px solid #E37A59;
   font-weight: 800;
 }
 
+/* clients section */
+.ticker-container .ticker-tape {
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.ticker-container .ticker-tape:before, .ticker-container .ticker-tape:after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 40%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.ticker-container .ticker-tape:after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+ 
+.ticker-container .ticker-tape:before {
+  left: 0;
+  top: 0;
+}
+
+.ticker-container .slide-track {
+  -webkit-animation: scroll 5s linear infinite;
+          animation: scroll 90s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+
+.ticker-container div.slide {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Animation */
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+/* skills section */
+
+.background-breaker {
+  background-color: var(--background-color);
+  padding: 20px 20px;
+}
+
+.number-titles {
+  font-family: var(--heading-font-style);
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.secondary-titles {
+  font-family: var(--heading-font-style);
+  font-weight: 100;
+  font-size: 45px;
+}
+
+.hp-tags {
+  font-family: var(--secondary-font-style);
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #E37A59;
+  font-size: 9px;
+  border-radius: 100px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 3.5px;
+  text-align: center;
+}
+/* NOT IN USE */
 .skills img {
   display: block;
   margin: 0 auto;
@@ -142,7 +228,7 @@ nav a:hover {
   text-align: center;
   padding-bottom: 10px;
 }
-
+/* NOT IN USE */
 hr {
   width: 70%;
   display: block;
@@ -166,7 +252,7 @@ h3 {
 
 .flex {
   text-align: center;
-  color: #ed7d59;
+  color: var(--bold-text-color);
 }
 
 .img-fluid {
@@ -176,21 +262,22 @@ h3 {
 }
 
 .btn-learn-more {
-  border: #011638 3px solid;
+  background: #E37A59;
   color: #011638;
   font-weight: 600;
-  border-radius: 2px;
-  padding: 12px 60px;
-  margin-top: 10px;
+  border-radius: 200px;
+  padding: 8px 55px;
+  margin-top: 8px;
   font-size: 15px;
   font-family: var(--secondary-font-style);
-  border-radius: 4px;
+  text-transform: uppercase;
   transition: all 150ms ease-in-out;
 }
 
 .btn-learn-more:hover {
-  color: #011638;
-  border: 3.5px solid #011638;
+  color: #E37A59;
+  background: #fff;
+  border: 3.5px solid #E37A59;
   font-weight: 800;
 }
 
@@ -198,6 +285,8 @@ h3 {
   color: #011638;
   padding: 20px;
 }
+
+
 /* My Work */
 
 .btn-case-study {
@@ -505,40 +594,49 @@ a:hover {
 
 /* contact box */
 .contact-box-hp {
-  background: #abe8e6;
-  padding: 20px 120px;
-  border-radius: 10px;
+  background: #fff;
+  padding: 35px 110px;
+  border-radius: 15px;
 }
 
 .btn-work-inquiry-hp {
   font-family: var(--secondary-font-style);
-  font-weight: 500;
-  color: white;
-  background-color: #885df1;
-  border-radius: 2px;
-  padding: 15px 50px;
-  font-size: 15px;
-  font-family: var(--secondary-font-style);
-  border-radius: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+  background-color: var(--bold-text-color);
+  border-radius: 200px;
+  padding: 10px 40px;
+  font-size: 12px;
   margin-top: 7px;
 }
 
 .btn-work-inquiry-hp:hover {
-  color: #885df1;
-  background-color: #abe8e6;
-  border: 3.5px solid #885df1;
+  color: var(--bold-text-color);
+  background-color: #fff;
+  border: 3.5px solid var(--bold-text-color);
   font-weight: 800;
+}
+
+.contact-img {
+padding-right: 0px;
+}
+
+.contact-text {
+  font-family: var(--secondary-font-style);
+  font-weight: 300;
+  padding-top: 30px;
 }
 
 
 /* footer */
 
 footer {
-  background-color: var(--background-color);
+  background-color: var(--bold-text-color);
 }
 footer .footer-contanier {
   display: inline;
-  padding: 30px 10px;
+  padding: 10px 10px;
 }
 footer .logo {
   margin: 20px;
@@ -555,8 +653,9 @@ footer .social-links {
 
 footer p {
   text-align: right;
-  padding: 18px 20px;
+  padding: 10px 10px;
   color: #272142;
+  font-size: 12px;
 }
 
 footer i.fas {
