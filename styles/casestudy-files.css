@@ -277,3 +277,25 @@ border: 2px solid #AC278F;
      color:#00818F;
      background: #fff;
     }
+
+    /* LGIM */
+
+    .btn-ad-prototype-LGIM {
+      display: block;
+      border-radius: 10px;
+      font-family: var(--secondary-font-style);
+      font-size: 18px;
+      font-weight: 600;
+      color: #53E791;
+      background-color: #333333;
+      margin: 15px;
+      padding: 15px;
+      text-align: center;
+      }
+      
+      .btn-ad-prototype-LGIM:hover {
+      border: 2px solid #53E791;
+       color:#53E791;
+       background: white;
+      }
+    }
